@@ -1,8 +1,8 @@
 <?php
 
-namespace MWazovzky\LaravelDatabaseLogger;
+namespace MWazovzky\DatabaseLogger;
 
-class LaravelDatabaseLogger 
+class DatabaseLogger 
 {
     public function hello()
     {

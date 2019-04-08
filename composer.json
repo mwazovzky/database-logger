@@ -1,5 +1,5 @@
 {
-    "name": "mwazovzky/laravel-database-logger",
+    "name": "mwazovzky/database-logger",
     "description": "Laravel package logs into database.",
 	"keywords": ["laravel", "logger", "database"],
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
 	"autoload": {
         "psr-4": {
-            "MWazovzky\\LaravelDatabaseLogger\\": "src/"
+            "MWazovzky\\DatabaseLogger\\": "src/"
         }
     },
     "autoload-dev": {
@@ -22,7 +22,7 @@
     // "extra": {
     //     "laravel": {
     //         "providers": [
-    //             "MWazovzky\\LaravelDatabaseLogger\\LaravelDatabaseLoggerServiceProvider"
+    //             "MWazovzky\\DatabaseLogger\\DatabaseLoggerServiceProvider"
     //         ]
     //     }
     // },

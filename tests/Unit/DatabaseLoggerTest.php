@@ -2,17 +2,17 @@
 
 namespace Tests\Unit;
 
-use MWazovzky\LaravelDatabaseLogger\LaravelDatabaseLogger;
+use MWazovzky\DatabaseLogger\DatabaseLogger;
 use Tests\TestCase;
 
-class LaravelDatabaseLoggerTest extends TestCase
+class DatabaseLoggerTest extends TestCase
 {
     /**
      * @test
      */
     public function it_runs_test()
     {
-        $logger = new LaravelDatabaseLogger();
+        $logger = new DatabaseLogger();
         $this->assertEquals('hello', $logger->hello());
     }
 }
