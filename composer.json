@@ -19,13 +19,13 @@
             "Tests\\": "tests/"
         }
     },
-    // "extra": {
-    //     "laravel": {
-    //         "providers": [
-    //             "MWazovzky\\DatabaseLogger\\DatabaseLoggerServiceProvider"
-    //         ]
-    //     }
-    // },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MWazovzky\\DatabaseLogger\\DatabaseLoggerServiceProvider"
+            ]
+        }
+    },
     "require": {
         //
     }
