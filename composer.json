@@ -1,6 +1,6 @@
 {
-    "name": "mwazovzky/database-logger",
-    "description": "Laravel package logs into database.",
+    "name": "mwazovzky/laravel-database-logger",
+    "description": "Laravel log channel that write into database.",
 	"keywords": ["laravel", "logger", "database"],
     "license": "MIT",
     "authors": [
@@ -19,14 +19,11 @@
             "Tests\\": "tests/"
         }
     },
-    // "extra": {
-    //     "laravel": {
-    //         "providers": [
-    //             "MWazovzky\\DatabaseLogger\\DatabaseLoggerServiceProvider"
-    //         ]
-    //     }
-    // },
-    "require": {
-        //
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MWazovzky\\DatabaseLogger\\DatabaseLoggerServiceProvider"
+            ]
+        }
     }
 }
